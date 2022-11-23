@@ -5,7 +5,13 @@ body {
 .footer {
     background-color: #a96b1e;
 }
-
+.header__text {
+    font-size: larger;
+    font-weight: 200;
+}
+.col-12{
+    margin-top: 40px;
+}
 /*colors: 
 #fffff1
 #eadabc
