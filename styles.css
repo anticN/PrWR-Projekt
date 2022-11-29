@@ -4,10 +4,22 @@ body {
 }
 .footer {
     background-color: #a96b1e;
+    padding: 10px;
 }
 .header__text {
     font-size: larger;
     font-weight: 200;
+}
+table {
+    /*border: 3px solid #a96b1e;*/
+    border-collapse: collapse;
+    background-color: #eadabc;
+}
+tr {
+    background-color: #eadabc;
+}
+td {
+    padding: 5px;
 }
 /*colors: 
 #fffff1
