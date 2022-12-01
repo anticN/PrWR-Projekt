@@ -1,9 +1,10 @@
 
 body {
-    background-color: #bf9053;
+    background-color: #f4ddca;
 }
 .footer {
-    background-color: #a96b1e;
+    background-color: lightgray;
+    /*c2a993*/
     padding: 10px;
 }
 .header__text {
@@ -13,13 +14,33 @@ body {
 table {
     /*border: 3px solid #a96b1e;*/
     border-collapse: collapse;
-    background-color: #eadabc;
+    background-color: #b9cbe1;
+
 }
 tr {
-    background-color: #eadabc;
+    background-color: #b9cbe1;
+    /*#b9cbe1*/
 }
 td {
     padding: 5px;
+}
+.main{
+    margin-top: 40px;
+}
+#maincont{
+    padding: -0;
+}
+#wordsAndNames{
+    width: 100%;
+}
+#litTitle{
+    padding-top: 30px;
+}
+#litContent{
+    padding-top: 30px;
+}
+.literatur{
+    font-size: large;
 }
 /*colors: 
 #fffff1
