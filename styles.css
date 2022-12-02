@@ -13,6 +13,9 @@ body {
 }
 table {
     /*border: 3px solid #a96b1e;*/
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
     border-collapse: collapse;
     background-color: #b9cbe1;
 
@@ -41,6 +44,17 @@ td {
 }
 .literatur{
     font-size: large;
+}
+p{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+h4{
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.contentTitle{
+    padding-top: 30px;
 }
 /*colors: 
 #fffff1
