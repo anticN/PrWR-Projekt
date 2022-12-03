@@ -5,7 +5,8 @@ body {
 .footer {
     background-color: lightgray;
     /*c2a993*/
-    padding: 10px;
+    float: left;
+    width: 100%;
 }
 .header__text {
     font-size: larger;
@@ -29,6 +30,7 @@ td {
 }
 .main{
     margin-top: 40px;
+    position: relative;
 }
 #maincont{
     padding: -0;
@@ -49,12 +51,22 @@ p{
     padding-left: 8px;
     padding-right: 8px;
 }
+h1{
+    padding-left: 8px;
+    padding-right: 8px;
+}
 h4{
     padding-left: 8px;
     padding-right: 8px;
 }
 .contentTitle{
     padding-top: 30px;
+}
+#footertable{
+    background-color: lightgray;
+}
+.footerrow{
+    background-color: lightgray;
 }
 /*colors: 
 #fffff1
