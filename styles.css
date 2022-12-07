@@ -15,7 +15,7 @@ table {
     /*border: 3px solid #a96b1e;*/
     position: -webkit-sticky;
     position: sticky;
-    top: 0;
+    top: 20px;
     border-collapse: collapse;
     background-color: #b9cbe1;
 
@@ -50,6 +50,7 @@ td {
 }
 .literatur{
     font-size: large;
+    padding-top: 25px;
 }
 p{
     padding-left: 8px;
