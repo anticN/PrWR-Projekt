@@ -4,11 +4,27 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="icon" href="./images/favicon.ico">
+        <link rel="icon" href="/images/favicon.ico">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="./styles.css">
         <script src="./index.js"></script>
         <title>Krise in den 30er Jahren</title>
+        <script>
+          // This is the function that will be called when the user clicks on the search button
+          // It will get the value of the search bar and then call the search function
+          // if the search bar is empty, it will display an error message
+          // if the search bar is not empty, it will call the search function
+          function searchButtonClicked() {
+            var searchBar = document.getElementById("searchBar");
+            var searchValue = searchBar.value;
+            if (searchValue == "") {
+              alert("Please enter a search term");
+            } else {
+              search(searchValue);
+            }
+          }
+          
+        </script>
     </head>
     <body>
       <!--Navbar-->
@@ -19,12 +35,13 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarMenu">
                 <ul class="navbar-nav">
-                    <li><a class="nav-link" href="./index.html">Home</a></li>
-                    <li><a class="nav-link" href="./uhrenindustrie.html">Die Uhrenindustrie Allgemein</a></li>
-                    <li><a class="nav-link active" href="./krise30.html">Die Krise in den 30er Jahren</a></li>
-                    <li><a class="nav-link" href="./krise79.html">Die Quarzkrise 1979</a></li>
+                    <li><a class="nav-link" href="/index.html">Home</a></li>
+                    <li><a class="nav-link" href="/uhrenindustrie.html">Die Uhrenindustrie Allgemein</a></li>
+                    <li><a class="nav-link active" href="/krise30.html">Die Krise in den 30er Jahren</a></li>
+                    <li><a class="nav-link" href="/krise79.html">Die Quarzkrise 1979</a></li>
                 </ul>
               </div>
+              <!-- this is the search bar --> 
               <input type="text" id="searchBar" placeholder="Search..">
             </div>
       </nav>
@@ -52,13 +69,49 @@
                         <td>1. Die Krise in den 30er Jahren</td>
                       </tr>
                       <tr>
-                        <td>1.1. Die Weltwirtschaftskrise</td>
+                        <td><a href="#Einführung Uhrenkrise 1930">1.1. Einführung</td>
                       </tr>
                       <tr>
-                        <td>1.2. Die Schweizer Uhrenindustrie</td>
+                        <td><a href="#Uhrenangestellten">1.2. Uhrenangestellten</a></td>
                       </tr>
                       <tr>
-                        <td>1.3. Die Auswirkungen auf die Schweizer Uhrenindustrie</td>
+                        <td><a href="#1930er Jahre">1.3. 1930er Jahre</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#Bund">1.4. Bund</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#Beliebtheit Schweizer Uhren">2. Beliebtheit Schweizer Uhren</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#Einführung Beliebtheit Schweizer Uhren">2.1. Einführung</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#Qualität">2.2. Qualität</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#Handwerkkunst">2.3. Handwerkkunst</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#Fakten über Schweizer Uhren">3. Fakten über Schweizer Uhren</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#Einführung Fakten über Schweizer Uhren">3.1. Einführung</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#Konkurrenz">3.2. Konkurrenz</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#Rolex">3.3. Rolex</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#Swiss Made">3.4. «Swiss Made»</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#Bruttoinlandprodukt">3.5. Bruttoinlandprodukt</a></td>
+                      </tr>
+                      <tr>
+                        <td><a href="#Arbeitskräfte">3.6. Arbeitskräfte</a></td>
                       </tr>
                     </table>
                   </div>
@@ -66,34 +119,45 @@
                       <h1 class="header__title">Die Krise in den 30er Jahren</h1>
                       <p class="header__text">Auf dieser Seite erzählen wir Ihnen über die Krise der 30er Jahre.</p>
                       <!--main content-->
-                      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
-                        invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et 
-                        accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata 
-                        sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur 
-                        sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-                        aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-                        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
-                          invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et 
-                          accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata 
-                          sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur 
-                          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-                          aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-                          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
-                            invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et 
-                            accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata 
-                            sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur 
-                            sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-                            aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-                            Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
-                              invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et 
-                              accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata 
-                              sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur 
-                              sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna 
-                              aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
-                              Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                      
+                      
+                      <h3><a name="Uhrenkrise 1930" style="padding-left: 8px;">Uhrenkrise 1930</a></h3>
+                      </br>
+                      <h4 class="contentTitle"><a name="Einführung Uhrenkrise 1930">Einführung</a></h4>
+                      <p>In der Schweiz fand 1930 eine Uhrenkrise statt. Die Leute damals befürchteten eine Rezession. Mit Rezession meint man eine Schrumpfung der Wirtschaftsleistung, auch «Rückgang» genannt. Die Umsätze der Uhrenindustrie brachen im Jahr 1930 um 24 Prozent ein. In den beiden darauffolgenden Jahren um 38% und 40% zurück (Bohlhalter, 2021).</p>
+                      <h4 class="contentTitle"><a name="Uhrenangestellten">Uhrenangestellten</a></h4>
+                      <p>1931 waren von ca. 34'000 Uhrenangestellten gut 20'000 teilweise oder ganz ar-beitslos. Das sind ungefähr 60%. Die schweizerische Uhrenindustrie hatte in den 1920er-Jahren einen Weltmarktanteil von über 90 Prozent. Sie waren somit die glo-balen Marktführer. Um ihre Position zu wahren schufen sie ein Kartell. Kartell be-deutet, dass sich selbständige Unternehmen der gleichen Branche sich zusammen-schliessen und den Wettbewerb durch Beeinflussung von Markt- und Produktver-hältnissen beschränken. Diese privatrechtlichen Kartelle legten Mindesttarife fest und bekämpfte Überproduktion sowie Chablonnage. Mit Chablonnage meint man die Ausfuhr von Schablonen eines Uhrwerkes, damit Uhren im Ausland nicht als in der Schweiz produzierte Produkte deklariert werden. Deshalb mussten ein paar Uh-renfachleute ihre Arbeit im Ausland tätigen. Die starke Weltmarktposition verlangte von den Uhrenfirmen anhaltend hohe Investitionen, dies wurde mehrheitlich durch Fremdkapital finanziert (Bohlhalter, 2021). </p>
+                      <h4 class="contentTitle"><a name="1930er Jahre">1930er Jahre</a></h4>
+                      <p>Nach dem Ersten Weltkrieg floss enorm viel Geld in schweizerische Banken, weil es im Ausland ein zu hohes Risiko hatte. Die Bilanzsumme der Grossbanken nahm von 1925 bis 1929 von knapp 5 Milliarden auf über 8 Milliarden zu. Die Banken finanzier-ten die Uhrenindustrie über Gebühr, teilweise gar unter Missachtung banküblicher Risikokriterien, um den Anlagenotstand zu lindern. Eine gefährliche Mischung aus Überproduktionen, verbunden mit hohem Preisdruck einerseits, und massiver Ver-schuldung andererseits, entstand für die Uhrenindustrie. 1929 beliefen sich die Bankschulden auf 67% ihres gesamten Jahresumsatzes. Wegen des Markteinbruches stieg es bis 1932 auf 148 Prozent an. 35 bis 40 Prozent wäre das Idealmass gewesen. Als die Uhrenindustrie wegen des Chablonnage vom Ruin bedroht war und die Kri-senfolgen 1931 in unerträgliche stiegen, gingen die Industriellen und Verbände, zu-sammen mit den Politikern und der Bevölkerung der Uhrenregionen, den Bund um Hilfe zu bitten. Dies führte zur Gründung der AUSAG allgemeine schweizerische Uh-renindustrie AG, Neuburg. Der Bund war mit einem Minderheitsanteil von 37,5% der grösser Einzelaktionär.  Am Kapital dieser Gesellschaft waren noch ihre Verbände und Banken dabei von mit je 31.25% Anteil (Bohlhalter, 2021). </p>
+                      <h4 class="contentTitle"><a name="Bund">Bund</a></h4>
+                      <p>16 Millionen betrug das Aktienkapital der ASUAG. Ihr Geschäftszweck bestand in der industriellen und finanziellen Sanierung der Uhrenindustrie, der Durchsetzung einer einheitlichen Industriepolitik und in der wirksamen Bekämpfung des Chablonnage. Die Bundesausgauben im Jahr 1931 betrugen 403 Millionen, davon gingen 53 Milli-onen für die Sanierung und entsprach 13,1 Prozent. Neben den Industriellen mit starken Vertretungen, traten der Bund und die Banken in den Verwaltungsrat der ASUAG ein und übernahmen damit die unternehmerische Verantwortung für den Konzern. Das heisst, sie begaben sich in eine langjährige, ungewisse Schicksalsge-meinschaft mit der Uhrenindustrie. Für die Banken war es – mindestens kurzfristig – kein grosses Opfer. Festgefrorene Kredite sicherten das starke Engagement des Bundes in den Uhrenfirmen ab, wenn auch nicht juristisch, so doch wirtschaftlich. Der Bundesrat griff 1934 mit Notrecht ein, weil die ASUAG die Probleme nicht mehr lösen konnte. Er beschloss, die Konventionen von 1928 zum Gesetz zu erheben und zum Schutz der kleinbetrieblichen Strukturen eine Fabrikations- und Betriebsbewilli-gungspflicht einzuführen. Somit kam es in der Uhrenindustrie zu einer Beruhigung. Die kleinbetrieblichen Produktionsstrukturen konnten gerettet werden und das Chablonnage wirksam eingedämmt. Die Landesregierung verlängerte ihren Beschluss bis 1948 sechs Mal. Das heisst, die Aktivität des Gesetzgebers nahm mit der Gene-sung der Uhrenindustrie nicht ab. Ende 1951 konnte nicht mehr mit Notrecht weiter gehandelt werden. Aus diesem Grund unterbreitete der Bundesrat dem Parlament einen Gesetzentwurf über Massnahmen zur Erhaltung der Uhrenindustrie (Bohlhalter, 2021).</p>
+                      <h3><a name="Beliebtheit Schweizer Uhren">Beliebtheit Schweizer Uhren</a></h3>
+                      </br>
+                      <h4 class="contentTitle"><a name="Einführung Beliebtheit Schweizer Uhren">Einführung</a></h4>
+                      <p>Viele der bekanntesten und teuersten Uhren stammen aus der Schweiz, wie z.B. Au-demars Piguet, Omega, Rolex, Breguet, Cartier und Patek Philippe. Wegen ihrer reichhaltigen Geschichten sind diese Marken so beliebt. In den meisten Ländern ist nämlich die Uhrenindustrie ausgestorben. Die Schweiz war nicht das erste Land in welchen Armbanduhren erstellt wurden, aber dennoch zählt es zu einem den ehrgei-zigsten und entschlossensten Ländern. Die Schweizer Uhren werden mit jahrhunder-terlanger Erfahrung und feinster Handwerkkunst gebaut. Die Schweiz hat zudem ei-ne reiche Geschichte an Rückschlägen und Beharrlichkeit hinter sich (Dijkstra, n.D.).</p>
+                      <h4 class="contentTitle"><a name="Qualität">Qualität</a></h4>
+                      <p>Ein weiterer Grund, warum Schweizer Uhren so beliebt sind, ist das eine Uhr nicht nur ein nebensächliches Accessoire, eine Modeerscheinung oder ein Trend ist. Son-dern sie kann von Generation zu Generation weitergegeben werden. Man kann die Uhren vererben. Der Unterschied der Schweizer Marken zu anderen Marken liegt an der gewählt hohen Materialgüte. Sie benutzen qualitativ hochwertige Materialien. Schweizer Uhren können so lange leben, weil sie solide Stahlverbindungen und Ge-häuse haben. Dies vermittelt zudem ein schweres Gefühl am Handgelenk. Stahl kann nicht rosten und kann aufpoliert werden. Damit die Uhr viele Jahre lang unbeschä-digt bleibt, hat es ein synthetisches Saphirglas mit einer unglaublich hohen Kratzfes-tigkeit. Schweizer Uhren werden hauptsächlich von Hand zusammengebaut. Somit können auch zerkratzte oder gebrochene Teile repariert werden, weil hochwertige Materialien verwendet werden (Dijkstra, n.D.). </p>
+                      <h4 class="contentTitle"><a name="Handwerkkunst">Handwerkkunst</a></h4>
+                      <p>Neben der hohen Qualität und einer reichhaltigen Geschichte an Handwerkkunst, haben Schweizer Uhren auch noch ein schönes Aussehen zu bieten. Man gibt sich viel Mühe, um originale und gutaussehende Uhren zu entwerfen, die zeitlos und in-novativ zugleich sind. Manche Uhrmarken benutzen goldene Schreiben, um den Uh-ren einen teuren Look zu verleihen (Dijkstra, n.D.). </p>
+                      <h3><a name="Fakten über Schweizer Uhren">Fakten über Schweizer Uhren</a></h3>
+                      </br>
+                      <h4 class="contentTitle"><a name="Einführung Fakten über Schweizer Uhren">Einführung</a></h4>
+                      <p>Die Schweiz produziert jährlich rund 20 Millionen Uhren. Im Bereich Luxusuhren ist die Schweiz Weltmarktführer. Obwohl sie die Weltmarktführer sind, sind nur etwas mehr als zwei Prozent weltweit Schweizer Uhren. Dafür deckt es das Land mehr als die Hälfte des weltweiten Uhrenmarkts ab. Die Schätzung für den Umsatz aller Mar-ken zusammengenommen beträgt mehr als 50 Milliarden Franken. Die Schweiz ist hauptsächlich im mittleren und oberen Preissegment vertreten. Mehr als 95% der Uhren mit einem Verkaufspreis über 1000 Franken werden hierzulande hergestellt. Der durchschnittliche Wert der exportieren Schweizer Uhren stieg in den letzten Jahren stetig. Im Jahr 2019 lag der Durchschnittspreis einer exportieren Uhr liegt bei knapp 1000 Dollar pro Stück. In demselben Jahr machten sie nur allein mit dem Ex-port einen Umsatz von 21.8 Milliarden Dollar. Die Schweiz hat 20.6 Millionen Uhren exportiert. Im Vergleich zur Schweiz hat zum Beispiel China nur einen Umsatz von 4.9 Milliarden erreicht, obwohl sie viel mehr Uhren exportiert haben. Sie haben 644.3 Millionen Uhren exportiert mit einem Durchschnittpreis von 4 Dollar (Tu-ruban, 2020).</p>
+                      <h4 class="contentTitle"><a name="Konkurrenz">Konkurrenz</a></h4>
+                      <p>Im Vergleich zu 2016 exportierten die Schweizer Uhrenproduzenten 2019 fast zehn Mio. weniger Uhren. Dieser Rückschlag lag am Coronavirus. Die grösste Konkurrenz der Schweiz sind Smartwatches. Unter den Smartwatches stellt die Apple Watch die grösste Konkurrenz dar. Allein mit diesem Modell verkaufte die Marke mit dem Apfel im Jahr 2019 mehr Einheiten als die gesamte Schweizer Uhrenindustrie. Und dass, obwohl die Computerfirma (Apple) erst vor fünf Jahren mit dem Verkauf von Uhren begonnen hat. Apple schätzungsweise weltweit 30.7 Millionen die Apple Watch im Jahr 2019 verkauft. Die Marke Swatch hat das zu spüren bekommen. Nach Schät-zungen produziert die Marke nur noch zwischen drei und sieben Millionen Uhren pro Jahr. Diese Zahl ist ziemlich wenig im Vergleich zu ihrer Bestzeit haben sie zwischen 15 und 20 Millionen Uhren im Jahr 1990 verkauft. Das waren nicht nur die einzigen Hürden, denn durch die Einführung strengerer Vorschriften im Jahr 2017, um das Label «Swiss Made» benutzen zu dürfen, nahmen viele Einsteigerfirmen schaden. Wie z.B. Mondaine, Festina, Victorinox, Raymond Weil und andere Einstiegsmarken. Dadurch sahen sich diese gezwungen, mehr Komponenten in der Schweiz zu bestel-len. Das führe dazu, dass ihre Preise erhöhen und einen Rückgang ihres Verkaufsvo-lumen um mehrere hunderttausend Stück hinnehmen mussten (Turuban, 2020). </p>
+                      <h4 class="contentTitle"><a name="Rolex">Rolex</a></h4>
+                      <p>Rolex ist die bekannteste Marke der Schweiz. Berühmte Persönlichkeiten wie Roger Federer, Brad Pitt, Donald Trump, Jay-Z etc. besitzen eine Rolex. Sie ist die weltweit meistverkaufte Schweizer Uhrenmarke. Im Jahr 2019 überschritt der Umsatz 5 Milli-arden Franken. Rolex wird nach wie vor durch die Stiftung der Gründerfamilie Wils-dorf kontrolliert. Das Unternehmen ist nicht an der Börse kotiert, seine Wertpapiere sind nicht handelbar. Die in Genf ansässige Marken kann also ihre Kommunikation nach Belieben steuern, jenseits aller Regeln der Börsentransparenz (Turuban, 2020).</p>
+                      <h4 class="contentTitle"><a name="Swiss Made">«Swiss Made»</a></h4>
+                      <p>350 Marken schmücken sich mit dem Label «Swiss Made». Nichtdestotrotz sind nicht alle in der gleichen Liga. Allein die 5 stärksten Parken teilen sich 50 Prozent des Uhrenkuchens unter sich auf. Nach Rolex folgen Omega mit einem Umsatz von 2.34 Mia., Longines 1.65 Mia., Cartier 1.594 Mia. und Patek Philippe 1.35 Mia. Die Um-sätze betreffen das Jahr 2019. Ganz knapp gehören noch Tissot 1.05 Mia. und Au-demars Piguet 1.03 Mia Franken in den Milliardärs Club. Drei grosse Konzerne domi-nieren den Schweizer Uhrenmarkt (Turuban, 2020):</p>
+                      
+                      <p>Swatch Group, weltweiter Marktführer der Uhrenbranche. Rund 40 % von der Fami-lie Hayek und ihren Angehörigen kontrolliert. An der Schweizer Börse kotiert (ein Wertpapier zu Notierung an der Börse zulassen). </p>
+                      <p>Richemont, gegründet durch den Südafrikaner Johann Rupert, an der schweizeri-schen und südafrikanischen Börse kotiert. </p>
+                      <p>LVMH, weltweit führender Luxuskonzern unter der Leitung des Franzosen Bernard Arnault, börsenkotiert und mit Sitz in Paris. </p>
+
+                      <h4 class="contentTitle"><a name="Bruttoinlandprodukt">Bruttoinlandprodukt</a></h4>
+                      <p>Etwa ein Prozent trägt die Uhrenindustrie zum Bruttoinlandprodukt (BIP) bei. Sie ist die drittgrösste Exportindustrie des Landes, hinter der pharmazeutisch-chemischen und der Werkzeugmaschinen-Industrie. Ihre Unternehmen befinden sich hauptsäch-lich in den Kantonen Neuenburg, Bern, Genf, Solothurn, Jura und Waadt. Mehr als 90% der Wertschöpfung des Sektors wird dort generiert. Die Uhrenindustrie ist in diesen Regionen der Nordwestschweiz eine wichtige Arbeitgeberin: Die 700 in die-sem Sektor tätigen Unternehmen beschäftigen fast 60'000 Personen. Mit den indi-rekt verbundenen Arbeitsplätzen dieser Branche, kann man von mehr als 100'000 Arbeitsplätzen in der Schweiz ausgehen, die von der Uhrenindustrie abhängig sind. Allerdings sind die Löhne der Beschäftigten in der Uhrenindustrie weit weniger traumhaft als die von ihnen hergestellten Zeitmesser. Im Jahr 2018 betrug der Me-dianlohn einer in der Uhrenbranche angestellten Person 5400 Franken pro Monat. Dies sind 1000 Franken weniger als der Medianlohn aller Berufstätigen im Land (Tu-ruban, 2020).  </p>
+                      <h4 class="contentTitle"><a name="Arbeitskräfte">Arbeitskräfte</a></h4>
+                      <p>Um das Uhrenwerk am Laufen zu halten, setzt die Schweizer Uhrenindustrie seit den 1960-Jahren stark auf billige Arbeitskräfte aus dem Ausland. Damals waren es vor allem Frauen italienischer Herkunft die angeworben wurden, um sich zu wiederho-lenden Tätigkeiten an den Fliessbändern auszuführen. Heute sind es vor allem Grenzgängerinnen und Grenzgänger, die das reibungslose Funktionieren der Uhren-industrie gewährleisten. Im Durchschnitt wird dort jeder dritte Arbeitsplatz von ei-nem Ausländer oder einer Ausländerin besetzt. Dieser Anteil kann in Fabriken in der Nähe der französischen oder italienischen Grenze manchmal bei über 80% liegen (Turuban, 2020). </p>
                     </div>
                     <div class="col-sm-12 col-md-6 col-lg-2">
                       <table id="wordsAndNames">
@@ -107,66 +171,10 @@
                           <td>ABCD</td>
                         </tr>
                         <tr>
-                          <td> Dori me
-                            Interimo, adapare
-                            Dori me
-                            Ameno, Ameno
-                            Latire
-                            Latiremo
-                            Dori me
-                            Ameno
-                            Omenare imperavi ameno
-                            Dimere, dimere matiro
-                            Matiremo
-                            Ameno
-                            Omenare imperavi emulari, ameno
-                            Omenare imperavi emulari, ameno
-                            Ameno dore
-                            Ameno dori me
-                            Ameno dori me
-                            Ameno dom
-                            Dori me reo
-                            Ameno dori me
-                            Ameno dori me
-                            Dori me am
-                            Ameno
-                            Omenare imperavi ameno
-                            Dimere dimere matiro
-                            Matiremo
-                            Ameno
-                            Omenare imperavi emulari, ameno
-                            Omenare imperavi emulari, ameno
-                            Ameno dore
-                            Ameno dori me
-                            Ameno dori me
-                            Ameno dom
-                            Dori me reo
-                            Ameno dori me
-                            Ameno dori me
-                            Dori me
-                            Ameno dori me
-                            Ameno dori me
-                            Dori me (dori me, dori me, dori me)
-                            (Dori me, dori me, dori me)
-                            Ameno
-                            Ameno dore
-                            Ameno dori me
-                            Ameno dori me
-                            Ameno dom
-                            Dori me reo
-                            Ameno dori me
-                            Ameno dori me
-                            Dori me dom
-                            Ameno dore
-                            Ameno dori me
-                            Ameno dori me
-                            Ameno dom
-                            Dori me reo
-                            Ameno dori me
-                            </td>
+                          <td>alsd</td>
                         </tr>
                         <tr>
-                          <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto quae, accusantium cum obcaecati inventore quam nesciunt amet eveniet, magni tenetur consequatur velit earum voluptas voluptatum fugiat voluptate illo veritatis dicta?</td>
+                          <td>slj</td>
                         </tr>
                       </table>
                     </div>
@@ -175,15 +183,26 @@
         </main>
         <!-- Footer -->
         <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <p class="footer__text">Die Schweizer Uhrenindustrie</p>
-                        <p><a href="./literatur.html">Literaturverzeichnis</a></p>
-                    </div>
-                </div>
-            </div>
-        </footer>
+          <div class="container">
+              <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-8"></div>
+                    <table id="footertable">
+                      <tr class="footerrow">
+                        <td><p class="footer__text">Die Schweizer Uhrenindustrie</p></td>
+                        <td><p>Kontaktieren Sie uns auf folgenden Links</p></td>
+                      </tr>
+                      <tr class="footerrow">
+                        <td><p><a href="./literatur.html">Literaturverzeichnis</a></p></td>
+                        <td><p><a href="mailto:nikola.antic@student.ksh.ch">Nikola Antic</a>
+                               <a href="mailto:miro.lacoste@student.ksh.ch">Miro Lacoste</a>
+                               <a href="mailto:lambotharan.logendran@student.ksh.ch">Lambotharan Logendran</a>
+                        </p></td>
+                      </tr>
+                    </table>
+                  </div>
+              </div>
+          </div>
+      </footer>
 
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
