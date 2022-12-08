@@ -24,6 +24,9 @@ tr {
     background-color: #b9cbe1;
     /*#b9cbe1*/
 }
+th{
+    padding: 5px;
+}
 td {
     padding: 5px;
 }
