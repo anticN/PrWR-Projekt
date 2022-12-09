@@ -17,11 +17,11 @@ table {
     position: sticky;
     top: 80px;
     border-collapse: collapse;
-    background-color: #b9cbe1;
+    background-color: #bbCFD7
 /*Test*/
 }
 tr {
-    background-color: #b9cbe1;
+    background-color: #bbCFD7;
     /*#b9cbe1*/
 }
 th{
@@ -45,6 +45,7 @@ td {
 #wordsAndNames{
     width: 100%;
 }
+
 #litTitle{
     padding-top: 30px;
 }
@@ -155,6 +156,9 @@ p{
 body { 
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+}
+.link{
+    color: black;
 }
 
 #navbar {
