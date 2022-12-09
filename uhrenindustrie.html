@@ -13,7 +13,7 @@
     <body>
       <!--Navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
+            <div class="container" id="searchBox">
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -25,7 +25,9 @@
                     <li><a class="nav-link" href="/krise79.html">Die Quarzkrise 1979</a></li>
                 </ul>
               </div>
-              <input type="text" id="searchBar" placeholder="Search..">
+              <input type="text" id="input" placeholder="Search..">
+              <input type="button" id="searchBtn" value="Search"
+              onclick="">
             </div>
         </nav>
           <div id="searchresults"></div>
@@ -49,19 +51,19 @@
                         <th>Absätze:</th>
                       </tr>
                       <tr>
-                        <td><a href="#Absatz1">1.1. Die Anfänge der Uhrmacherei in der Schweiz</a></td>
+                        <td><a href="#Absatz1">Die Anfänge der Uhrmacherei in der Schweiz</a></td>
                       </tr>
                       <tr>
-                        <td><a href="#Absatz2">1.2. Der Aufstieg der Genfer Uhrmacherei und die Ausbreitung der Uhrmacherei im Jurabogen</a></td>
+                        <td><a href="#Absatz2">Der Aufstieg der Genfer Uhrmacherei und die Ausbreitung der Uhrmacherei im Jurabogen</a></td>
                       </tr>
                       <tr>
-                        <td><a href="#Absatz3">1.3. Marktentwicklung und Nachfrageverschiebung</a></td>
+                        <td><a href="#Absatz3">Marktentwicklung und Nachfrageverschiebung</a></td>
                       </tr>
                       <tr>
-                        <td><a href="#Absatz4">1.4. Entwicklung der mikrotechnischen Forschung</a></td>
+                        <td><a href="#Absatz4">Entwicklung der mikrotechnischen Forschung</a></td>
                       </tr>
                       <tr>
-                        <td><a href="#Absatz5">1.5. Rahmenbedingungen der Uhrenindustrie</a></td>
+                        <td><a href="#Absatz5">Rahmenbedingungen der Uhrenindustrie</a></td>
                       </tr>
                     </table>
                   </div>
@@ -71,7 +73,7 @@
                       <!--main content-->
                       <!--Erster Absatz-->
                       <h4 class="contentTitle"><a name="Absatz1">Die Anfänge der Uhrmacherei in der Schweiz</a></h4>
-                      <p>Glocken, Sanduhren und Stundenkerzen wurden im Mittelalter von Mönchen und Nonnen benutzt,
+                      <p id="p">Glocken, Sanduhren und Stundenkerzen wurden im Mittelalter von Mönchen und Nonnen benutzt,
                         um ihren Tagesablauf einzuteilen. An den Aussenwänden der Klöster befanden sich Sonnenuhren,
                         die dazu dienten, die Tageszeiten über den Hellen Tag anzugeben, die Sonnenuhren konnten in 
                         der Nacht wegen des fehlenden Lichtes nicht genutzt werden. Aus diesem Grund wurde im 14 Jahrhundert
@@ -85,11 +87,11 @@
                         Die Uhrmacher in Bern gehörten der Gesellschaft zu Schmieden an. (Fallet und Veyrassat, 2020)</p>
                       <!--Zweiter Absatz-->
                       <h4 class="contentTitle"><a name="Absatz2">Der Aufstieg der Genfer Uhrmacherei und die Ausbreitung der Uhrmacherei im Jurabogen</a></h4>
-                      <p>Ab 1550 kamen die hugenottischen Glaubensflüchtlinge nach Genf 
+                      <p id="p">Ab 1550 kamen die hugenottischen Glaubensflüchtlinge nach Genf 
                       («Hugenotten» ist eine gebräuchliche Bezeichnung seit 1560 für die französischen Protestanten
                       im vorrevolutionären Frankreich), diese brachten ein grosses Fachwissen insbesondere über tragbare Uhren mit.
                       Somit wurde Genf zum Zentrum der Zeitmessung. (Fallet und Veyrassat, 2020)</p>
-                      <p>
+                      <p id="p">
                       Graveure und Gehäusemacher begannen sich ab 1660 zu spezialisieren. Den Frauen wurde der Zugang zu diesen Handwerken bis 1785 verwehrt,
                       diese arbeiteten als Kettchenmacherinnen und schlossen sich 1690 der 1601 gegründeten Uhrmacherzunft an. 
                       Die Genfer Uhrmacher beschränkten sich ende des 17. Jahrhunderts auf die Endbearbeitung der Uhren und vergaben die Herstellung
@@ -99,7 +101,7 @@
                       Alles änderte sich als Frankreich 1798 Genf annektierte (Begriff für das gewaltsame und widerrechtliche in Besitz bringen eines Gebietes)
                       und die Meisterschaften abgeschafft wurden. Die Branche stürzte in eine Krise mit hoher Arbeitslosigkeit. (Fallet und Veyrassat, 2020)
                       </p>
-                      <p>
+                      <p id="p">
                         Die Genfer Uhrmacher liessen sich Anfang des 18 Jahrhunderts im Waadtland nieder und brachten so ihr Wissen und Können in diese Region.
                         Ab dem 17. Jahrhundert breitete sich die Uhrmacherei in den «Montagnes neuchâteloises» (Eine Region im Kanton Neuenburg) aus und Genf ein,
                         die ihrerseits einer starken englischen Konkurrenz ausgesetzt war. Viele Genfer Uhrmacher wurden dazu bewegt
@@ -109,7 +111,7 @@
                         Die Pendulen aus Neuenburg fanden guten Absatz ab dem 18. Jahrhundert und standen zwischen 1750 und 1810 der Pariser Konkurrenz nichts nach.
                         Oft haben die Uhrmacher sämtliche Familienmitglieder beschäftigt, gaben ihr Wissen an Lehrlinge weiter und gingen sogar gezielte Heiratsverbindungen ein. (Fallet und Veyrassat, 2020)
                       </p>
-                      <p>
+                      <p id="p">
                       Die Uhrenindustrie entwickelte sich in der Mitte des 19. Jahrhundert besonders in den Kantonen Bern und Solothurn weiter.
                       Rund die Hälfte aller für den Export bestimmten Uhren und Uhrwerke kamen im Jahr 1890 aus Berner Uhrmacherwerkstätten.
                       Bern war das neue Zentrum einer sich rasch modernisierenden Uhrenindustrie. Gegen Ende des 19 Jahrhundert erreichte diese,
@@ -117,28 +119,28 @@
                       </p>
                     <!--Dritter Absatz-->
                     <h4 class="contentTitle"><a name="Absatz3">Marktentwicklung und Nachfrageverschiebung</a></h4>
-                    <p>
+                    <p id="p">
                       Trotz den schweren Krisen in deren Folge sich die Schweizer Uhrenindustrie neu ausrichten musste, konnten die Schweizer Uhren ihren hohen Stellenwert auf dem Weltmarkt beibehalten. Die Schweiz produzierte im Jahr 1870 etwa drei Viertel 
                       aller Uhren und erzielte damit zwei Drittel des weltweiten Branchenumsatzes. Die Schweiz war am Anfang des 21 Jahrhundert immer noch die wertmässig grösste Exporteurin von Uhren. Im Jahr 2010 machte die Schweiz mit den Uhrenexporten 16.2 Milliarden Franken und somit mehr als die hälfe des Weltuhrenexports von geschätzten 30 Milliarden Franken. Im Jahre 2010 wurden 1.2 Milliarden Uhren hergestellt, davon stammen 1.1 Milliarden Uhren aus China und Hongkong. Nur 26.2 Millionen Uhren stammen aus der Schweiz, somit gehörten die in der Schweiz hergestellten Uhren zum Hochpreissegment und kosteten durchschnittlich 
                       bedeutend mehr als Uhren von anderen Ländern und Produzenten. 
                       Die Uhrenindustrie bestand im Jahre 2010 aus rund 600 Unternehmen und war damit hinter der Maschinenindustrie und der chemischen Industrie die 
                       drittgrösste Exportbranche der Schweiz. (Fallet und Veyrassat, 2020)
                     </p>
-                    <p>
+                    <p id="p">
                       Die Uhrenindustrie verdankte diesen Erfolg ihrer unermüdlichen Anpassung an die Nachfrageentwicklung und der Entschliessung von Absatzmärkten, die sich in 
                       Abhängigkeit vom Weltmarkt in jeweils anderen Ländern auftaten. Die grössten Abnehmer von Schweizer Uhren waren im Jahre 2010 Asien mit 53%, die über die Hälfte ausmachten und Europa mit 31%. Die Schweizer Uhrenindustrie hielt die un-angefochtene Führungsposition im Luxussegment, jedoch sagen sich die Uhrma-cher ab Mitte des 19. Jahrhunderts gezwungen, sich an gewisse mit dem Massen-konsum verbundene Zeitströmungen und an die Kriegszeiten anzupassen. Die Uh-renindustrie machte im Ersten Weltkrieg mit der Herstellung von 
                       Fahrtmessern (Als Fahrtmesser werden in der Luftfahrt Instrumente zur Messung der Geschwindigkeit des Luftfahrzeugs gegenüber der umgebenden Luft 
                       bezeichnet.) und Zeitzündern von Granaten Gewinne, ab 1914 ermöglichte die fort-schreitende Mechanisierung die Produktion von Munition. 
                       (Fallet und Veyrassat, 2020)
                     </p>
-                    <p>
+                    <p id="p">
                       Im 19. Jahrhundert gelangten immer mehr Menschen in den Besitz einer Uhr. Das Aufkommen der Eisenbahn und die Fortschritte in der Fabrikarbeit mit ihren 
                       geregelten Arbeitszeiten förderten den allgemeinen Gebrauch. Dank der Hebung des Lebensstandards verbreitete sich die Uhr bis in die unteren sozialen Schichten, vor allem die 1867 von Georges-Frédéric Roskopf geschaffene Roskopfuhr, auch «Uhr des Arbeiters» genannt. Sie war zwar billig, aber dafür tadellos gefertigt. Die Zahlreichen technischen Neuerungen im Bereich der Zusammensetzung, 
                       Hemmung oder des Materials sprachen weitere Kunden an. In den 1920er Jahren verdrängte die Armbanduhr, die zuerst für militärische Zwecke verwendet worden ist, die Taschenuhr. Ein automatisches Kaliber wurde in Grenchen um 1926 
                       hergestellt, 1952 tauchten bereits die ersten elektronischen Modelle der Uhren auf. Die Oris war eine Uhr mit Stiften Hemmung (Im Gegensatz zur gewöhnlichen An-kerhemmung besitzt das Hemmungsrad keine Zähne, sondern parallel zur Achse angeordnete Stahlstifte, in die der Anker eingreift.), kam 1938 auf den Markt und die Plastikuhr Fortis kam 1969 auf den Markt. Zwischen 1979 und 1982 wurde die Swatch entworfen die man heute überall kennt. Die Swatch ist eine kleine elektro-nische Uhr aus Spritzplastik (Ein Kunststoff, der aus Erdöl hergestellt wird, eine Art von Plastik) und wurde zu einem Hightech-Massenprodukt. (Fallet und Veyrassat, 2020)
                     </p>
                     <h4 class="contentTitle"><a name="Absatz4">Entwicklung der mikrotechnischen Forschung</a></h4>
-                    <p>
+                    <p id="p">
                       Die Suche nach der präzisen Messung der Zeit war schon für traditionelle 
                       Uhrmacher ein erstrangiges Ziel. Durch die Erfindungen von einzelnen Gelehrten konnten die Uhren immer genau die Uhrzeit angeben. Einer dieser Erfindungen war zum Beispiel die Legierung «Invar», die sich bei hochsteigenden Temperaturen kaum ausdehnt. Diese Legierung wurde von dem Physiker 
                       Charles-Edouard Guillaume entwickelt im Jahre 1896. Um die Qualität der Uhren weiterhin zu verbessern wurden immer dünnere Kaliber und sogenannte 
@@ -156,7 +158,7 @@
                       zusammenhing. (Fallet und Veyrassat, 2020)
                     </p>
                     <h4 class="contentTitle"><a name="Absatz5">Rahmenbedingungen der Uhrenindustrie</a></h4>
-                    <p style="margin-bottom: 50px;">
+                    <p style="margin-bottom: 50px;" id="p">
                       Die häufigen und schweren Krisen der Uhrenindustrie hatten teilweise 
                       konjunkturelle Gründe (Unter Konjunktur versteht man die gesamtwirtschaftliche Lage, hauptsächlich auf Hinsicht auf deren aktuellen positiven oder negativen Trend.), teilweise gingen sie von einer Überproduktion oder einem 
                       Paradigmenwechsel aus. Mit einem Paradigmenwechsel spricht man von einem Wandel der grundlegenden Rahmenbedingungen für einzelne wissenschaftliche Theorien. Die Krisen riefen eine Vielzahl von Massnahmen hervor, die von 
@@ -174,26 +176,178 @@
                           <th>Schwierige Begriffe und Namen</th>
                         </tr>
                         <tr>
-                          <td>Testname</td>
+                          <td>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Hugenotten">
+                              Hugenotten
+                            </button>
+                          </td>
                         </tr>
                         <tr>
-                          <td>ABCD</td>
-                        </tr>
-                        <tr>
-                          <td> Dori me
-                            Interimo, adapare
-                            Dori me
-                            Ameno, Ameno
-                            Latire
-                            Latiremo
-                            Dori me
+                          <td>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Annektieren">
+                              Annektieren
+                            </button>
                             </td>
                         </tr>
                         <tr>
-                          <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto quae, accusantium cum obcaecati inventore quam nesciunt amet eveniet, magni tenetur consequatur velit earum voluptas voluptatum fugiat voluptate illo veritatis dicta?</td>
+                          <td> 
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Fahrtmesser">
+                              Fahrtmesser
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Stiftenhemmung">
+                              Stiftenhemmung
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Spritzplastik">
+                              Spritzplastik
+                            </button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Konjunkturell">
+                              Konjunkturell
+                            </button>
+                          </td>
                         </tr>
                       </table>
                     </div>
+                    <!-- Modal Hugenotten -->
+                    <div class="modal fade" id="Hugenotten" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Hugenotten</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p>«Hugenotten» ist eine gebräuchliche Bezeichnung seit 1560 für die französischen Protestanten im vorrevolutionären Frankreich.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Schliessen</button>
+                            <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Modal Annektieren -->
+                    <div class="modal fade" id="Annektieren" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Annektieren</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Begriff für das gewaltsame und widerrechtliche in Besitz bringen eines Gebietes.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Schliessen</button>
+                            <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Modal Fahrtmesser -->
+                    <div class="modal fade" id="Fahrtmesser" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Fahrtmesser</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p>
+                              Als Fahrtmesser werden in der Luftfahrt Instrumente zur Messung der Geschwindigkeit des Luftfahrzeugs gegenüber der umgebenden Luft  
+                              bezeichnet.
+                            </p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Schliessen</button>
+                            <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Modal Stiftenhemmung -->
+                    <div class="modal fade" id="Stiftenhemmung" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Stiftenhemmung</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Im Gegensatz zur gewöhnlichen Ankerhemmung besitzt das Hemmungsrad keine Zähne, sondern parallel zur Achse angeordnete Stahlstifte, in die der Anker eingreift.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Schliessen</button>
+                            <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Modal Spritzplastik -->
+                    <div class="modal fade" id="Spritzplastik" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Spritzplastik</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Im Gegensatz zur gewöhnlichen Ankerhemmung besitzt das Hemmungsrad keine Zähne, sondern parallel zur Achse angeordnete Stahlstifte, in die der Anker eingreift.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Schliessen</button>
+                            <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Modal Konjunkturell -->
+                    <div class="modal fade" id="Konjunkturell" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Konjunkturell</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <p>Unter Konjunktur versteht man die gesamtwirtschaftliche Lage, hauptsächlich auf Hinsicht auf deren aktuellen positiven oder negativen Trend.</p>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Schliessen</button>
+                            <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
                 </div>
             </div>
         </main>
@@ -208,7 +362,7 @@
                         <td><p>Kontaktieren Sie uns auf folgenden Links</p></td>
                       </tr>
                       <tr class="footerrow">
-                        <td><p><a href="./literatur.html">Literaturverzeichnis</a></p></td>
+                        <td><p><a href="./quellen.html">Quellenverzeichnis</a></p></td>
                         <td><p><a href="mailto:nikola.antic@student.ksh.ch">Nikola Antic</a>
                                <a href="mailto:miro.lacoste@student.ksh.ch">Miro Lacoste</a>
                                <a href="mailto:lambotharan.logendran@student.ksh.ch">Lambotharan Logendran</a>
@@ -227,5 +381,17 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.js"></script>
+      <script type="text/javascript">
+          const p = document.getElementById("p");
+
+          function search() {
+              let input = document.getElementById("input").value;
+
+              if (input !== "") {
+                  let regExp = new RegExp(input, "gi");
+                  p.innerHtml = (p.textContent).replace(regExp, "<mark>$&</mark>");
+              }
+          }   
+      </script>
     </body>
 </html>
