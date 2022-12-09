@@ -212,12 +212,3 @@ body {
     float: none;
   }
 }
-#input{
-    width: 80%;
-    border: none;
-    outline: none;
-    padding: 0 15px;
-}
-input{
-    font-size: 18px;
-}
